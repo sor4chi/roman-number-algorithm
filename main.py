@@ -15,7 +15,7 @@ def judge(r, n):
             ans += value[2*(r - 1)] * (m * -1)
             ans += value[2*(r - 1)+1]
     else:
-        ans += value[2*(r - 1)+0] * (10 - n)
+        ans += value[2*(r - 1)] * (10 - n)
         ans += value[2*(r - 1)+2]
     return ans
 
